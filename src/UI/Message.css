@@ -1,0 +1,37 @@
+.message-container {
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  padding: 0 14px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  border-radius: 12px;
+  color: #fff;
+}
+.message-container.error {
+  background-color: #d85a5a;
+}
+.message-container.success,
+.message-container.deleted {
+  background-color: #4bb543;
+}
+.message-container button {
+  border-radius: 50%;
+  border: none;
+  margin-left: 10px;
+  padding: 4px;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  color: #ffffff;
+  align-items: center;
+  background-color: transparent;
+  transition: all 0.4s ease;
+}
+.message-container button:hover {
+  background-color: #ffffffed;
+  color: #000000;
+}

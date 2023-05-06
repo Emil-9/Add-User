@@ -1,0 +1,37 @@
+.form-container {
+  display: block;
+  text-align: left;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #17233866;
+}
+.form-container label {
+  width: calc(100% - 40px);
+  display: block;
+}
+.form-container input,
+.form-container button {
+  border-radius: 8px;
+  border: none;
+  margin: 10px 0;
+  transition: all 0.4s ease;
+}
+.form-container input {
+  width: calc(100% - 40px);
+  padding: 15px 20px;
+  background-color: #ffffffc9;
+}
+.form-container button {
+  width: auto;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 15px 30px;
+  font-weight: 500;
+  background-color: #09101da4;
+  color: #ffffff;
+}
+.form-container input:focus-visible,
+.form-container button:focus-visible {
+  outline: none;
+  background-color: #ffffffc9;
+}

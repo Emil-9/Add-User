@@ -1,0 +1,31 @@
+.user-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #060e1b;
+  padding: 5px 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.user-container h3 {
+  margin-right: auto;
+}
+.button-delete {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  fill: #ffffff;
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: all 0.4s ease;
+}
+.button-delete:hover {
+  background-color: #1d2943;
+}
